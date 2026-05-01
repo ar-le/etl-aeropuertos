@@ -8,6 +8,11 @@ dependencies = [
     "dagster>=1.13.2",
     "dagster-webserver>=1.13.2",
     "pandas>=3.0.2",
+    "pyhive>=0.7.0",
+    "pyspark==3.5.8",
+    "sqlalchemy>=2.0.49",
+    "thrift>=0.22.0",
+    "thrift-sasl>=0.4.3",
 ]
 
 [tool.dagster]

@@ -110,7 +110,7 @@ def trayecto_df(context: AssetExecutionContext, frequent_flyer_df: pd.DataFrame,
     #Avion - buscar en avion_df por airplane type (que está en flight_df) para obtener el avion_id
     df = df.merge(flight_df[['flight_key', 'airplane_type']], left_on='flight_key', right_on='flight_key', how='left')
     df = df.merge(avion_df[['avion_id', 'tipo']], left_on='airplane_type', right_on='tipo', how='left')
-    df.drop(columns=['airplane_type', 'tipo'], inplace=True)
+    df.drop(columns=['airplane_type', 'tipo', 'flight_key'], inplace=True)
 
 
     #tarifa y pago - hay claves que están en frequent flyer pero no existen en las tablas de tipo_asiento y tipo_pago, por lo que se hace un left join para obtener la descripción si existe. Si no existe se elimina la clave de la tabla principal
@@ -122,7 +122,12 @@ def trayecto_df(context: AssetExecutionContext, frequent_flyer_df: pd.DataFrame,
     df.drop(columns=['descripcion_x', 'descripcion_y', 'tipo_asiento_id', 'tipo_pago_id'], inplace=True)
 
     #Renombrar columnas
-    df.rename(columns={'customer_key': 'pasajero_id', 'fare_class_key': 'tipo_asiento_id', 'channel_key': 'tipo_pago_id', 'fare': 'tarifa', 'miles': 'millas', 'minutes_late': 'minutos_retraso', 'leg_origin_key': 'origen_id', 'leg_dest_key': 'destino_id', 'trip_origin_key': 'origen_viaje_id', 'trip_dest_key': 'destino_viaje_id', 'flight_key': 'vuelo_id'}, inplace=True)
+    df.rename(
+        columns={'customer_key': 'pasajero_id', 'flight_date': 'fecha_vuelo', 'fare_class_key': 'tipo_asiento_id', 
+                       'channel_key': 'tipo_pago_id', 'fare': 'tarifa', 'miles': 'millas', 'minutes_late': 'minutos_retraso', 
+                       'leg_origin_key': 'trayecto_origen', 'leg_dest_key': 'trayecto_destino', 'trip_origin_key': 'itinerario_origen', 
+                       'trip_dest_key': 'itinerario_destino'}, 
+        inplace=True)
     
     #Convertir a Int64 (nullable integer) para mantener NaN sin convertir a float
     #Si no para poder tener nulls se pasa a a float, con valores 1.0

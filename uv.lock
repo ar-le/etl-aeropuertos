@@ -315,6 +315,11 @@ dependencies = [
     { name = "dagster" },
     { name = "dagster-webserver" },
     { name = "pandas" },
+    { name = "pyhive" },
+    { name = "pyspark" },
+    { name = "sqlalchemy" },
+    { name = "thrift" },
+    { name = "thrift-sasl" },
 ]
 
 [package.metadata]
@@ -322,6 +327,11 @@ requires-dist = [
     { name = "dagster", specifier = ">=1.13.2" },
     { name = "dagster-webserver", specifier = ">=1.13.2" },
     { name = "pandas", specifier = ">=3.0.2" },
+    { name = "pyhive", specifier = ">=0.7.0" },
+    { name = "pyspark", specifier = "==3.5.8" },
+    { name = "sqlalchemy", specifier = ">=2.0.49" },
+    { name = "thrift", specifier = ">=0.22.0" },
+    { name = "thrift-sasl", specifier = ">=0.4.3" },
 ]
 
 [[package]]
@@ -340,6 +350,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e1/cf/b50ddf667c15276a9ab15a70ef5f257564de271957933ffea49d2cdbcdfb/fsspec-2026.3.0.tar.gz", hash = "sha256:1ee6a0e28677557f8c2f994e3eea77db6392b4de9cd1f5d7a9e87a0ae9d01b41", size = 313547, upload-time = "2026-03-27T19:11:14.892Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d5/1f/5f4a3cd9e4440e9d9bc78ad0a91a1c8d46b4d429d5239ebe6793c9fe5c41/fsspec-2026.3.0-py3-none-any.whl", hash = "sha256:d2ceafaad1b3457968ed14efa28798162f1638dbb5d2a6868a2db002a5ee39a4", size = 202595, upload-time = "2026-03-27T19:11:13.595Z" },
+]
+
+[[package]]
+name = "future"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a7/b2/4140c69c6a66432916b26158687e821ba631a4c9273c474343badf84d3ba/future-1.0.0.tar.gz", hash = "sha256:bd2968309307861edae1458a4f8a4f3598c03be43b97521076aebf5d94c07b05", size = 1228490, upload-time = "2024-02-21T11:52:38.461Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl", hash = "sha256:929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216", size = 491326, upload-time = "2024-02-21T11:52:35.956Z" },
 ]
 
 [[package]]
@@ -1117,6 +1136,21 @@ wheels = [
 ]
 
 [[package]]
+name = "pure-sasl"
+version = "0.6.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/83/b7/a0d688f86c869073cc28c0640899394a1cf68a6d87ee78a09565e9037da6/pure-sasl-0.6.2.tar.gz", hash = "sha256:53c1355f5da95e2b85b2cc9a6af435518edc20c81193faa0eea65fdc835138f4", size = 11617, upload-time = "2019-10-14T21:43:57.13Z" }
+
+[[package]]
+name = "py4j"
+version = "0.10.9.9"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/38/31/0b210511177070c8d5d3059556194352e5753602fa64b85b7ab81ec1a009/py4j-0.10.9.9.tar.gz", hash = "sha256:f694cad19efa5bd1dee4f3e5270eb406613c974394035e5bfc4ec1aba870b879", size = 761089, upload-time = "2025-01-15T03:53:18.624Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bd/db/ea0203e495be491c85af87b66e37acfd3bf756fd985f87e46fc5e3bf022c/py4j-0.10.9.9-py2.py3-none-any.whl", hash = "sha256:c7c26e4158defb37b0bb124933163641a2ff6e3a3913f7811b0ddbe07ed61533", size = 203008, upload-time = "2025-01-15T03:53:15.648Z" },
+]
+
+[[package]]
 name = "pydantic"
 version = "2.13.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1243,6 +1277,16 @@ wheels = [
 ]
 
 [[package]]
+name = "pyhive"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "future" },
+    { name = "python-dateutil" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f6/ec/5c658b3a4d99a6d9145030cc8e003c3f7efc668d866e88544812ab0af310/PyHive-0.7.0.tar.gz", hash = "sha256:585beff9578a61b99aed47140fec97e26323e8c685a5b5d0c8550a8ebf8a24e0", size = 46479, upload-time = "2023-08-17T23:29:25.26Z" }
+
+[[package]]
 name = "pyreadline3"
 version = "3.5.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1250,6 +1294,15 @@ sdist = { url = "https://files.pythonhosted.org/packages/0f/49/4cea918a08f02817a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5a/dc/491b7661614ab97483abf2056be1deee4dc2490ecbf7bff9ab5cdbac86e1/pyreadline3-3.5.4-py3-none-any.whl", hash = "sha256:eaf8e6cc3c49bcccf145fc6067ba8643d1df34d604a1ec0eccbf7a18e6d3fae6", size = 83178, upload-time = "2024-09-19T02:40:08.598Z" },
 ]
+
+[[package]]
+name = "pyspark"
+version = "3.5.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "py4j" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/80/5a/3806f44eb47387e8af803508cdd6bbc0df784febf4dc010700be04a1ff89/pyspark-3.5.8.tar.gz", hash = "sha256:54cca0767b21b40e3953ad1d30f8601c53abf9cbda763653289cdcfcac52313c", size = 317817299, upload-time = "2026-01-15T11:46:14.487Z" }
 
 [[package]]
 name = "python-dateutil"
@@ -1486,6 +1539,26 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/46/58/8c37dea7bbf769b20d58e7ace7e5edfe65b849442b00ffcdd56be88697c6/tabulate-0.10.0.tar.gz", hash = "sha256:e2cfde8f79420f6deeffdeda9aaec3b6bc5abce947655d17ac662b126e48a60d", size = 91754, upload-time = "2026-03-04T18:55:34.402Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl", hash = "sha256:f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3", size = 39814, upload-time = "2026-03-04T18:55:31.284Z" },
+]
+
+[[package]]
+name = "thrift"
+version = "0.22.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b2/c2/db648cc10dd7d15560f2eafd92a27cd280811924696e0b4a87175fb28c94/thrift-0.22.0.tar.gz", hash = "sha256:42e8276afbd5f54fe1d364858b6877bc5e5a4a5ed69f6a005b94ca4918fe1466", size = 62303, upload-time = "2025-05-23T20:49:33.309Z" }
+
+[[package]]
+name = "thrift-sasl"
+version = "0.4.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pure-sasl" },
+    { name = "six" },
+    { name = "thrift" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fa/fb/5d9ba73be60b32f6fda080a5556cff25e15daf33bafe043c226404b39b25/thrift_sasl-0.4.3.tar.gz", hash = "sha256:5bdd5b760d90a13d9b3abfce873db0425861aa8d6bf25912d3cc0467a4f773da", size = 3962, upload-time = "2021-05-26T12:40:20.875Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c3/9e/636c24ce1c0d46ce3020c5836c5a375d8e862fa81a240e0e352cc991dcf8/thrift_sasl-0.4.3-py2.py3-none-any.whl", hash = "sha256:d24b49140115e6e2a96d08335cff225a27a28ea71866fb1b2bdb30ca5afca64e", size = 8304, upload-time = "2021-05-26T12:40:19.425Z" },
 ]
 
 [[package]]

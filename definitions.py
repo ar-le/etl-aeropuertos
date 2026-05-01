@@ -1,6 +1,7 @@
 from dagster import AssetSelection, Definitions, define_asset_job, load_from_defs_folder, load_assets_from_modules
 from assets import extract, transform, load
 from resources.extract_path import GetExtractPathResource
+from resources.hive_resource import HiveResource
 
 
 all_assets = load_assets_from_modules([extract, transform, load])
@@ -23,6 +24,11 @@ defs = Definitions(
             fare_path='data/fare.csv',
             flight_path='data/flight.csv',
             frequent_flyer_path='data/frequentflyer.csv'
+        ),
+        'hive_resource': HiveResource(
+            hive_ip='192.168.18.139',
+            username='hadoop-ariel',
+            database='default'
         )
     },
     jobs=[full_etl]
