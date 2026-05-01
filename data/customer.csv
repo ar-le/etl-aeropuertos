@@ -1,0 +1,101 @@
+customer_key;customer_name;customer_address;customer_city;customer_state;customer_zip;customer_type;customer_income;customer_birth_date;customer_marital;customer_sex
+1;Anderson;1607 Shady Lane;Birmingham;Alabama;40928;Employed;$102.000;marzo 12, 1956;Married;M
+2;Antoni;3859 Shady Lane;Tuscaloosa;Alabama;35294;Employed;$35.000;marzo 18, 1936;Married;F
+3;Appley;1923 Shady Lane;Anchorage;Alaska;58358;Employed;$47.000;febrero 2, 1937;Married;M
+4;Ashby;9369 Shady Lane;Juneau;Alaska;90421;Employed;$94.000;julio 20, 1959;Married;F
+5;Barr;7593 Shady Lane;Flagstaff;Arizona;67536;Employed;$93.000;noviembre 30, 1978;Married;M
+6;Barrett;5332 Shady Lane;Phoenix;Arizona;88392;Employed;$117.000;junio 23, 1982;Married;F
+7;Bennett;4116 Shady Lane;Little Rock;Arkansas;23848;Self Employed;$35.000;mayo 17, 1976;Married;M
+8;Boone;3100 Shady Lane;Midville;Arkansas;88536;Employed;$93.000;noviembre 7, 1974;Coresident;F
+9;Clarke;7808 Shady Lane;San Diego;California;39238;Employed;$61.000;febrero 14, 1949;Single;M
+10;Clewett;3997 Shady Lane;Red Bluff;California;37374;Employed;$87.000;mayo 31, 1980;Single;F
+11;Cluster;8640 Shady Lane;Denver;Colorado;61892;Military;$44.000;octubre 18, 1978;Married;M
+12;Coghlin;7143 Shady Lane;Steamboat Springs;Colorado;92682;Self Employed;$44.000;julio 8, 1968;Married;F
+13;Davis;8765 Shady Lane;Hartford;Connecticut;94452;Employed;$91.000;junio 22, 1963;Married;M
+14;DePalma;8778 Shady Lane;Stamford;Connecticut;82401;Employed;$99.000;diciembre 25, 1945;Married;F
+15;Deardorff;8151 Shady Lane;Wilmington;Delaware;40860;Employed;$62.000;agosto 22, 1957;Married;M
+16;Dodds;5016 Shady Lane;Ashton;Delaware;95319;Employed;$119.000;julio 27, 1962;Married;F
+17;Edwards;1789 Shady Lane;Sarasota;Florida;38087;Employed;$33.000;septiembre 28, 1958;Married;M
+18;Edholm;297 Shady Lane;Miami;Florida;36986;Employed;$30.000;diciembre 11, 1985;Coresident;F
+19;Emory;7863 Shady Lane;Norcross;Georgia;75225;Employed;$55.000;junio 30, 1973;Single;M
+20;Erickson;2254 Shady Lane;Augusta;Georgia;60997;Employed;$113.000;noviembre 23, 1932;Single;F
+21;Farrell;6957 Shady Lane;Kona;Hawaii;92508;Employed;$75.000;octubre 30, 1952;Married;M
+22;Faulkner;3374 Shady Lane;Hilo;Hawaii;32709;Employed;$70.000;febrero 20, 1974;Married;F
+23;Foley;311 Shady Lane;Ketchum;Idaho;14818;Employed;$30.000;diciembre 8, 1972;Married;M
+24;Ford;119 Shady Lane;Sun Valley;Idaho;71699;Employed;$76.000;enero 27, 1987;Married;F
+25;Gage;4697 Shady Lane;Chicago;Illinois;14621;Employed;$30.000;abril 2, 1942;Married;M
+26;Galt;1551 Shady Lane;Decatur;Illinois;84668;Employed;$81.000;mayo 11, 1947;Married;F
+27;Gray;1751 Shady Lane;Lafayette;Indiana;18714;Military;$54.000;mayo 29, 1982;Married;M
+28;Guy;5582 Shady Lane;Indianapolis;Indiana;43653;Employed;$69.000;abril 26, 1961;Coresident;F
+29;Haines;7770 Shady Lane;Des Moines;Iowa;15595;Employed;$28.000;enero 19, 1976;Single;M
+30;Hale;584 Shady Lane;Council Bluffs;Iowa;37536;Employed;$77.000;julio 18, 1954;Single;F
+31;Hatch;5892 Shady Lane;Topeka;Kansas;17545;Employed;$98.000;marzo 26, 1981;Married;M
+32;Hatton;3440 Shady Lane;Kansas City;Kansas;98425;Employed;$86.000;septiembre 22, 1978;Married;F
+33;Ide;4017 Shady Lane;Lexington;Kentucky;47959;Military;$114.000;diciembre 28, 1932;Married;M
+34;Ilgen;6407 Shady Lane;Blueridge;Kentucky;97712;Military;$24.000;enero 26, 1955;Married;F
+35;Infante;928 Shady Lane;New Orleans;Louisiana;26814;Military;$73.000;septiembre 24, 1949;Married;M
+36;Isbell;4209 Shady Lane;Shreveport;Louisiana;55895;Employed;$72.000;enero 28, 1963;Married;F
+37;Jackson;8614 Shady Lane;Bethesda;Maryland;11802;Employed;$80.000;marzo 20, 1948;Married;M
+38;Jarrett;9820 Shady Lane;Baltimore;Maryland;20353;Employed;$74.000;junio 5, 1947;Coresident;F
+39;Jensen;8195 Shady Lane;Augusta;Maine;58098;Employed;$84.000;enero 3, 1954;Single;M
+40;Johnson;9683 Shady Lane;Bangor;Maine;45251;Employed;$83.000;noviembre 12, 1966;Single;F
+41;Kessler;3302 Shady Lane;Boston;Massachusetts;42680;Self Employed;$61.000;abril 26, 1978;Married;M
+42;Kitch;361 Shady Lane;Greenfield;Massachusetts;75026;Employed;$60.000;mayo 7, 1935;Married;F
+43;Knipe;6874 Shady Lane;Ann Arbor;Michigan;54578;Employed;$113.000;diciembre 5, 1964;Married;M
+44;Knutsen;6831 Shady Lane;Grand Rapids;Michigan;53680;Employed;$110.000;octubre 2, 1974;Married;F
+45;Lambert;8693 Shady Lane;Duluth;Minnesota;98704;Employed;$112.000;junio 19, 1965;Married;M
+46;Landino;700 Shady Lane;Minneapolis;Minnesota;23552;Military;$62.000;febrero 16, 1986;Married;F
+47;Laplante;4331 Shady Lane;Biloxi;Mississippi;60220;Employed;$44.000;marzo 19, 1933;Married;M
+48;Larkin;3497 Shady Lane;Jackson;Mississippi;73434;Employed;$89.000;julio 27, 1937;Coresident;F
+49;McClellan;2387 Shady Lane;St. Louis;Missouri;51907;Employed;$97.000;octubre 15, 1965;Single;M
+50;Minkel;4548 Shady Lane;Springfield;Missouri;97940;Military;$47.000;febrero 23, 1971;Single;F
+51;Moran;8147 Shady Lane;Bozeman;Montana;46909;Employed;$109.000;noviembre 15, 1963;Married;M
+52;Morton;8381 Shady Lane;Butte;Montana;32100;Employed;$49.000;agosto 29, 1983;Married;F
+53;Nielson;9511 Shady Lane;Lincoln;Nebraska;32541;Employed;$100.000;marzo 1, 1934;Married;M
+54;Noram;4839 Shady Lane;North Platte;Nebraska;53476;Employed;$74.000;octubre 18, 1968;Married;F
+55;Norquist;6746 Shady Lane;Tonopah;Nevada;12955;Employed;$106.000;junio 6, 1965;Married;M
+56;Novick;9448 Shady Lane;Carson City;Nevada;88322;Self Employed;$20.000;octubre 23, 1961;Married;F
+57;Oakden;6294 Shady Lane;Manchester;New Hampshire;95751;Employed;$91.000;enero 18, 1959;Married;M
+58;Ortiz;7814 Shady Lane;Concord;New Hampshire;62038;Employed;$116.000;marzo 4, 1987;Coresident;F
+59;Orson;6999 Shady Lane;Trenton;New Jersey;57639;Employed;$61.000;febrero 1, 1973;Single;M
+60;Osborne;3438 Shady Lane;Princeton;New Jersey;38666;Employed;$58.000;abril 20, 1977;Single;F
+61;Page;4480 Shady Lane;Albuquerque;New Mexico;65792;Employed;$47.000;julio 15, 1964;Married;M
+62;Paskins;1491 Shady Lane;Taos;New Mexico;39260;Employed;$43.000;octubre 4, 1940;Married;F
+63;Pavlovich;5698 Shady Lane;New York;New York;81372;Employed;$81.000;septiembre 14, 1956;Married;M
+64;Perez;4751 Shady Lane;Albany;New York;17205;Military;$34.000;marzo 8, 1960;Married;F
+65;Queen;7562 Shady Lane;Raleigh;North Carolina;84169;Employed;$84.000;noviembre 26, 1975;Married;M
+66;Quick;4374 Shady Lane;Greensboro;North Carolina;37164;Employed;$89.000;abril 5, 1972;Married;F
+67;Quinn;3930 Shady Lane;Fargo;North Dakota;23152;Military;$50.000;octubre 17, 1971;Married;M
+68;Quiroz;5488 Shady Lane;Bismarck;North Dakota;14594;Employed;$70.000;septiembre 25, 1978;Coresident;F
+69;Rasmussen;9033 Shady Lane;Oklahoma City;Oklahoma;75116;Employed;$27.000;diciembre 30, 1967;Single;M
+70;Redfern;8296 Shady Lane;Lawton;Oklahoma;95652;Employed;$31.000;noviembre 30, 1975;Single;F
+71;Richards;6927 Shady Lane;Cincinnati;Ohio;91307;Self Employed;$115.000;marzo 14, 1965;Married;M
+72;Rivera;2521 Shady Lane;Cleveland;Ohio;46070;Self Employed;$87.000;mayo 18, 1941;Married;F
+73;Sanson;8599 Shady Lane;Portland;Oregon;95066;Military;$34.000;febrero 24, 1977;Married;M
+74;Sargent;5161 Shady Lane;Medford;Oregon;56299;Employed;$75.000;octubre 2, 1976;Married;F
+75;Siegel;4956 Shady Lane;Pittsburgh;Pennsylvania;33260;Employed;$68.000;diciembre 27, 1946;Married;M
+76;Spicer;3786 Shady Lane;Philadelphia;Pennsylvania;41681;Employed;$20.000;noviembre 16, 1967;Married;F
+77;Thomas;8946 Shady Lane;Providence;Rhode Island;89540;Employed;$115.000;octubre 18, 1977;Married;M
+78;Thompspn;6530 Shady Lane;Newport;Rhode Island;77817;Self Employed;$100.000;octubre 20, 1971;Coresident;F
+79;Turner;2629 Shady Lane;Columbia;South Carolina;39994;Military;$40.000;noviembre 8, 1985;Single;M
+80;Tuttle;8859 Shady Lane;Charleston;South Carolina;16448;Self Employed;$100.000;febrero 18, 1968;Single;F
+81;Uphoff;2944 Shady Lane;Rapid City;South Dakota;79528;Employed;$30.000;febrero 13, 1935;Married;M
+82;Upton;6511 Shady Lane;Pierre;South Dakota;74958;Employed;$32.000;julio 4, 1946;Married;F
+83;Urbani;1686 Shady Lane;Nashville;Tennessee;91119;Military;$80.000;septiembre 18, 1937;Married;M
+84;Utzig;8841 Shady Lane;Knoxville;Tennessee;99749;Employed;$94.000;marzo 8, 1972;Married;F
+85;Valdez;6522 Shady Lane;Dallas;Texas;72383;Employed;$24.000;julio 16, 1977;Married;M
+86;Vargas;2743 Shady Lane;San Antonio;Texas;92092;Employed;$20.000;marzo 6, 1966;Married;F
+87;Verch;783 Shady Lane;Salt Lake City;Utah;25394;Employed;$73.000;febrero 20, 1972;Married;M
+88;Vogel;2436 Shady Lane;Ogden;Utah;85786;Employed;$81.000;enero 16, 1962;Coresident;F
+89;Wadsworth;7902 Shady Lane;Burlington;Vermont;29451;Employed;$41.000;mayo 21, 1982;Single;M
+90;Walsh;6442 Shady Lane;Montpelier;Vermont;18957;Employed;$97.000;septiembre 24, 1959;Single;F
+91;Watson;8664 Shady Lane;Richmond;Virginia;79762;Self Employed;$102.000;diciembre 2, 1935;Married;M
+92;Wedig;1269 Shady Lane;Norfolk;Virginia;95728;Self Employed;$21.000;mayo 23, 1951;Married;F
+93;Xanadu;8834 Shady Lane;Seattle;Washington;74273;Employed;$92.000;septiembre 29, 1947;Married;M
+94;Xavier;7326 Shady Lane;Tacoma;Washington;77589;Employed;$86.000;diciembre 31, 1943;Married;F
+95;Xiong;3835 Shady Lane;Charleston;West Virginia;56334;Employed;$39.000;diciembre 7, 1970;Married;M
+96;Xiques;6779 Shady Lane;Clarksburg;West Virginia;37184;Employed;$50.000;septiembre 14, 1955;Married;F
+97;Yost;8214 Shady Lane;Madison;Wisconsin;42262;Military;$57.000;enero 7, 1985;Married;M
+98;Yoder;4103 Shady Lane;Milwaukee;Wisconsin;95392;Employed;$33.000;junio 25, 1979;Coresident;F
+99;Young;6328 Shady Lane;Laramie;Wyoming;81373;Employed;$44.000;diciembre 18, 1953;Single;M
+100;Youpa;6905 Shady Lane;Cheyenne;Wyoming;98309;Self Employed;$75.000;diciembre 20, 1940;Single;F

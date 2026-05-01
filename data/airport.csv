@@ -1,0 +1,21 @@
+leg_key;leg_name;leg_city;leg_type;leg_radar_type
+1;JFK;New York;Multi Runway;ILS
+2;La Guardia;New York;Multi Runway;VFR
+3;Logan;Boston;Single Runway;ILS
+4;Stapleton;Denver;Multi Runway;VFR
+5;Lindbergh Field;San Diego;Multi Runway;ILS
+6;LAX;Los Angeles;Single Runway;VFR
+7;O Hare;Chicago;Multi Runway;ILS
+8;Midway;Chicago;Multi Runway;VFR
+9;Seattle;Seattle;Single Runway;ILS
+10;John Wayne;Costa Mesa;Multi Runway;VFR
+11;DFW;Dallas;Multi Runway;ILS
+12;Miami;Miami;Single Runway;VFR
+13;Minneapolis;Minneapolis;Multi Runway;ILS
+14;Portland;Portland;Multi Runway;VFR
+15;St. Louis;St. Louis;Single Runway;ILS
+16;Raleigh Durham;Raleigh Durham;Multi Runway;VFR
+17;Philadephia;Philadelphia;Multi Runway;ILS
+18;Dulles;Washington;Single Runway;VFR
+19;National;Washington;Multi Runway;ILS
+20;Nashville;Nashville;Multi Runway;VFR

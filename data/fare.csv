@@ -1,0 +1,5 @@
+fare_class_key;fare_class_code;fare_class_description;restriction_type
+1;Y;Economy;None
+2;J;Business;None
+3;F;First;None
+4;X;Discount;30 Day Advance
